@@ -1,5 +1,7 @@
 # <strong>LeetCode Solutions</strong>
 
+<img src='https://leetcode.card.workers.dev/rasvan?theme=auto&font=source_code_pro&extension=null&cache=0' width='100%' /><br />
+
 ## Algorithms
 
 <table width='100%'>
