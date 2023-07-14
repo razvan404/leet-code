@@ -468,4 +468,129 @@
         <td><a href='algorithms/hard/PutMarblesInBags.cpp'>Put Marbles in Bags</a></td>
         <td>Hard</td>
     </tr>
-</table>
+</table><br />
+
+## Database
+
+<table width='100%'>
+    <tr>
+        <th>ID</th>
+        <th>Title and Solution</th>
+        <th>Difficulty</th>
+    </tr>
+    <tr>
+        <td>175</td>
+        <td><a href='database/easy/CombineTwoTables.sql'>Combine Two Tables</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>176</td>
+        <td><a href='database/medium/SecondHighestSalary.sql'>Second Highest Salary</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>177</td>
+        <td><a href='database/medium/NthHighestSalary.sql'>Nth Highest Salary</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>178</td>
+        <td><a href='database/medium/RankScores.sql'>Rank Scores</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>180</td>
+        <td><a href='database/medium/ConsecutiveNumbers.sql'>Consecutive Numbers</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>181</td>
+        <td><a href='database/easy/EmployeesEarningMoreThanTheirManagers.sql'>Employees Earning More Than Their Managers</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>182</td>
+        <td><a href='database/easy/DuplicateEmails.sql'>Duplicate Emails</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>183</td>
+        <td><a href='database/easy/CustomersWhoNeverOrder.sql'>Customers Who Never Order</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>184</td>
+        <td><a href='database/medium/DepartmentHighestSalary.sql'>Department Highest Salary</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>185</td>
+        <td><a href='database/hard/DepartmentTopThreeSalaries.sql'>Department Top Three Salaries</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td>196</td>
+        <td><a href='database/easy/DeleteDuplicateEmails.sql'>Delete Duplicate Emails</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>197</td>
+        <td><a href='database/easy/RisingTemperature.sql'>Rising Temperature</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>262</td>
+        <td><a href='database/hard/TripsAndUsers.sql'>Trips and Users</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td>511</td>
+        <td><a href='database/easy/GamePlayAnalysisI.sql'>Game Play Analysis I</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>584</td>
+        <td><a href='database/easy/FindCustomerReferee.sql'>Find Customer Referee</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>585</td>
+        <td><a href='database/medium/InvestmentsIn2016.sql'>Investments in 2016</a></td>
+        <td>Medium</td>
+    </tr>
+</table><br />
+
+## Shell
+
+<table width='100%'>
+    <tr>
+        <th>ID</th>
+        <th>Title and Solution</th>
+        <th>Difficulty</th>
+    </tr>
+    <tr>
+        <td>193</td>
+        <td><a href='shell/easy/ValidPhoneNumbers.sh'>Valid Phone Numbers</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>195</td>
+        <td><a href='shell/easy/TenthLine.sh'>Tenth Line</a></td>
+        <td>Easy</td>
+    </tr>
+</table><br />
+
+## JavaScript
+
+<table width='100%'>
+    <tr>
+        <th>ID</th>
+        <th>Title and Solution</th>
+        <th>Difficulty</th>
+    </tr>
+    <tr>
+        <td>2618</td>
+        <td><a href='javascript/medium/CheckIfObjectInstanceOfClass.js'>Check if Object Instance of Class</a></td>
+        <td>Medium</td>
+    </tr>
+</table><br />
