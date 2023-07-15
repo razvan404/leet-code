@@ -446,6 +446,11 @@
         <td>Hard</td>
     </tr>
     <tr>
+        <td>1751</td>
+        <td><a href='algorithms/hard/MaximumNumberOfEventsThatCanBeAttendedII.cpp'>Maximum Number of Events That Can Be Attended II</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td>2024</td>
         <td><a href='algorithms/medium/MaximizeTheConfusionOfAnExam.cpp'>Maximize the Confusion of an Exam</a></td>
         <td>Medium</td>
