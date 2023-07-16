@@ -396,6 +396,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>1125</td>
+        <td><a href='algorithms/hard/SmallestSufficientTeam.cpp'>Smallest Sufficient Team</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td>1129</td>
         <td><a href='algorithms/medium/ShortestPathWithAlternatingColors.cpp'>Shortest Path with Alternating Colors</a></td>
         <td>Medium</td>
