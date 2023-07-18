@@ -615,4 +615,9 @@
         <td><a href='javascript/medium/CheckIfObjectInstanceOfClass.js'>Check if Object Instance of Class</a></td>
         <td>Medium</td>
     </tr>
+    <tr>
+        <td>2619</td>
+        <td><a href='javascript/easy/ArrayPrototypeLast.js'>Array Prototype Last</a></td>
+        <td>Easy</td>
+    </tr>
 </table><br />
