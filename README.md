@@ -266,6 +266,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>146</td>
+        <td><a href='algorithms/medium/LRUCache.cpp'>LRU Cache</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>152</td>
         <td><a href='algorithms/medium/MaximumProductSubarray.cpp'>Maximum Product Subarray</a></td>
         <td>Medium</td>
