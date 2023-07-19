@@ -331,6 +331,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>435</td>
+        <td><a href='algorithms/medium/NonOverlappingIntervals.cpp'>Non-overlapping Intervals</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>438</td>
         <td><a href='algorithms/medium/FindAllAnagramsInString.cpp'>Find All Anagrams in a String</a></td>
         <td>Medium</td>
