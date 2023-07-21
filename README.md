@@ -366,6 +366,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>673</td>
+        <td><a href='algorithms/medium/NumberOfLongestIncreasingSubsequence.cpp'>Number of Longest Increasing Subsequence</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>735</td>
         <td><a href='algorithms/medium/AsteroidCollision.cpp'>Asteroid Collision</a></td>
         <td>Medium</td>
