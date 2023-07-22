@@ -371,6 +371,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>688</td>
+        <td><a href='algorithms/medium/KnightProbabilityInChessboard.cpp'>Knight Probability in Chessboard</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>735</td>
         <td><a href='algorithms/medium/AsteroidCollision.cpp'>Asteroid Collision</a></td>
         <td>Medium</td>
