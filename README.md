@@ -401,6 +401,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>894</td>
+        <td><a href='algorithms/medium/AllPossibleFullBinaryTrees.cpp'>All Possible Full Binary Trees</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>904</td>
         <td><a href='algorithms/medium/FruitIntoBaskets.cpp'>Fruit Into Baskets</a></td>
         <td>Medium</td>
