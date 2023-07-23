@@ -645,4 +645,14 @@
         <td><a href='javascript/easy/ArrayPrototypeLast.js'>Array Prototype Last</a></td>
         <td>Easy</td>
     </tr>
+    <tr>
+        <td>2620</td>
+        <td><a href='javascript/easy/Counter.js'>Counter</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>2623</td>
+        <td><a href='javascript/medium/Memoize.js'>Memoize</a></td>
+        <td>Medium</td>
+    </tr>
 </table><br />
