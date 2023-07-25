@@ -391,6 +391,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>852</td>
+        <td><a href='algorithms/medium/PeakIndexInMountainArray.cpp'>Peak Index in a Mountain Array</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>859</td>
         <td><a href='algorithms/easy/BuddyStrings.cpp'>Buddy Strings</a></td>
         <td>Easy</td>
