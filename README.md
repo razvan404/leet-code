@@ -496,6 +496,11 @@
         <td>Hard</td>
     </tr>
     <tr>
+        <td>1870</td>
+        <td><a href='algorithms/medium/MinimumSpeedToArriveOnTime.cpp'>Minimum Speed to Arrive on Time</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>2024</td>
         <td><a href='algorithms/medium/MaximizeTheConfusionOfAnExam.cpp'>Maximize the Confusion of an Exam</a></td>
         <td>Medium</td>
