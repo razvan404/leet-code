@@ -506,6 +506,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>2141</td>
+        <td><a href='algorithms/hard/MaximumRunningTimeOfNComputers.cpp'>Maximum Running Time of N Computers</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td>2272</td>
         <td><a href='algorithms/hard/SubstringWithLargestVariance.cpp'>Substring With Largest Variance</a></td>
         <td>Hard</td>
