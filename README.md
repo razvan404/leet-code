@@ -346,6 +346,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>486</td>
+        <td><a href='algorithms/medium/PredictTheWinner.cpp'>Predict the Winner</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>502</td>
         <td><a href='algorithms/hard/IPO.cpp'>IPO</a></td>
         <td>Hard</td>
