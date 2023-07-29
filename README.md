@@ -396,6 +396,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>808</td>
+        <td><a href='algorithms/medium/SoupServings.cpp'>Soup Servings</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>852</td>
         <td><a href='algorithms/medium/PeakIndexInMountainArray.cpp'>Peak Index in a Mountain Array</a></td>
         <td>Medium</td>
