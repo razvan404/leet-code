@@ -381,6 +381,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>712</td>
+        <td><a href='algorithms/medium/MinimumAsciiDeleteSumFromTwoStrings.cpp'>Minimum ASCII Delete Sum for Two Strings</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>735</td>
         <td><a href='algorithms/medium/AsteroidCollision.cpp'>Asteroid Collision</a></td>
         <td>Medium</td>
