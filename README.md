@@ -261,6 +261,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>139</td>
+        <td><a href='algorithms/medium/WordBreak.cpp'>Word Break</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>141</td>
         <td><a href='algorithms/easy/LinkedListCycle.cpp'>Linked List Cycle</a></td>
         <td>Easy</td>
