@@ -341,6 +341,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>338</td>
+        <td><a href='algorithms/easy/CountingBits.cpp'>Counting Bits</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td>435</td>
         <td><a href='algorithms/medium/NonOverlappingIntervals.cpp'>Non-overlapping Intervals</a></td>
         <td>Medium</td>
@@ -555,6 +560,11 @@
         <td><a href='algorithms/hard/PutMarblesInBags.cpp'>Put Marbles in Bags</a></td>
         <td>Hard</td>
     </tr>
+    <tr>
+        <td>2707</td>
+        <td><a href='algorithms/medium/ExtraCharactersInString.cpp'>Extra Characters in a String</a></td>
+        <td>Medium</td>
+    </tr>
 </table><br />
 
 ## Database
@@ -713,6 +723,11 @@
     <tr>
         <td>595</td>
         <td><a href='pandas/easy/BigCountries.py'>Big Countries</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>1148</td>
+        <td><a href='pandas/easy/ArticleViewsI.py'>Article Views I</a></td>
         <td>Easy</td>
     </tr>
     <tr>
