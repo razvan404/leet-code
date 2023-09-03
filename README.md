@@ -186,6 +186,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>62</td>
+        <td><a href='algorithms/medium/UniquePaths.cpp'>Unique Paths</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>66</td>
         <td><a href='algorithms/easy/PlusOne.cpp'>Plus One</a></td>
         <td>Easy</td>
@@ -689,5 +694,30 @@
         <td>2623</td>
         <td><a href='javascript/medium/Memoize.js'>Memoize</a></td>
         <td>Medium</td>
+    </tr>
+</table><br />
+
+## Pandas
+
+<table width='100%'>
+    <tr>
+        <th>ID</th>
+        <th>Title and Solution</th>
+        <th>Difficulty</th>
+    </tr>
+    <tr>
+        <td>183</td>
+        <td><a href='pandas/easy/CustomersWhoNeverOrder.py'>Customers Who Never Order</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>595</td>
+        <td><a href='pandas/easy/BigCountries.py'>Big Countries</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>1757</td>
+        <td><a href='pandas/easy/RecyclableAndLowFatProducts.py'>Recyclable and Low Fat Products</a></td>
+        <td>Easy</td>
     </tr>
 </table><br />
