@@ -266,6 +266,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>138</td>
+        <td><a href='algorithms/medium/CopyListWithRandomPointer.cpp'>Copy List with Random Pointer</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>139</td>
         <td><a href='algorithms/medium/WordBreak.cpp'>Word Break</a></td>
         <td>Medium</td>
@@ -398,6 +403,11 @@
     <tr>
         <td>712</td>
         <td><a href='algorithms/medium/MinimumAsciiDeleteSumFromTwoStrings.cpp'>Minimum ASCII Delete Sum for Two Strings</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>725</td>
+        <td><a href='algorithms/medium/SplitLinkedListInParts.cpp'>Split Linked List in Parts</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -728,6 +738,11 @@
     <tr>
         <td>1148</td>
         <td><a href='pandas/easy/ArticleViewsI.py'>Article Views I</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>1667</td>
+        <td><a href='pandas/easy/FixNamesInTable.py'>Fix Names in a Table</a></td>
         <td>Easy</td>
     </tr>
     <tr>
