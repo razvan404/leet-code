@@ -226,6 +226,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>92</td>
+        <td><a href='algorithms/medium/ReverseLinkedListII.cpp'>Reverse Linked List II</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>94</td>
         <td><a href='algorithms/easy/BinaryTreeInorderTraversal.cpp'>Binary Tree Inorder Traversal</a></td>
         <td>Easy</td>
@@ -248,6 +253,11 @@
     <tr>
         <td>111</td>
         <td><a href='algorithms/easy/MinimumDepthOfBinaryTree.cpp'>Minimum Depth of Binary Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>118</td>
+        <td><a href='algorithms/easy/PascalTriangle.cpp'>Pascal's Triangle</a></td>
         <td>Easy</td>
     </tr>
     <tr>
@@ -349,6 +359,11 @@
         <td>338</td>
         <td><a href='algorithms/easy/CountingBits.cpp'>Counting Bits</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td>377</td>
+        <td><a href='algorithms/medium/CombinationSumIV.cpp'>Combination Sum IV</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>435</td>
@@ -499,6 +514,11 @@
         <td>1218</td>
         <td><a href='algorithms/medium/LongestArithmeticSubsequenceOfGivenDifference.cpp'>Longest Arithmetic Subsequence of Given Difference</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td>1359</td>
+        <td><a href='algorithms/hard/CountAllValidPickupAndDeliveryOptions.cpp'>Count All Valid Pickup and Delivery Options</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td>1470</td>
