@@ -516,6 +516,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>1218</td>
+        <td><a href='algorithms/medium/GroupThePeopleGivenTheGroupSizeTheyBelongTo.cpp'>Group the People Given the Group Size They Belong To</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>1359</td>
         <td><a href='algorithms/hard/CountAllValidPickupAndDeliveryOptions.cpp'>Count All Valid Pickup and Delivery Options</a></td>
         <td>Hard</td>
