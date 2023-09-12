@@ -516,7 +516,7 @@
         <td>Medium</td>
     </tr>
     <tr>
-        <td>1218</td>
+        <td>1282</td>
         <td><a href='algorithms/medium/GroupThePeopleGivenTheGroupSizeTheyBelongTo.cpp'>Group the People Given the Group Size They Belong To</a></td>
         <td>Medium</td>
     </tr>
@@ -548,6 +548,11 @@
     <tr>
         <td>1626</td>
         <td><a href='algorithms/medium/BestTeamWithNoConflicts.cpp'>Best Team With No Conflicts</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>1647</td>
+        <td><a href='algorithms/medium/MinimumDeletionsToMakeCharacterFrequenciesUnique.cpp'>Minimum Deletions to Make Character Frequencies Unique</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -763,6 +768,11 @@
     <tr>
         <td>1148</td>
         <td><a href='pandas/easy/ArticleViewsI.py'>Article Views I</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>1527</td>
+        <td><a href='pandas/easy/PatientsWithCondition.py'>Patients With a Condition</a></td>
         <td>Easy</td>
     </tr>
     <tr>
