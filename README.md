@@ -266,6 +266,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>135</td>
+        <td><a href='algorithms/hard/Candy.cpp'>Candy</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td>136</td>
         <td><a href='algorithms/easy/SingleNumber.cpp'>Single Number</a></td>
         <td>Easy</td>
@@ -354,6 +359,11 @@
         <td>242</td>
         <td><a href='algorithms/easy/ValidAnagram.cpp'>Valid Anagram</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td>332</td>
+        <td><a href='algorithms/hard/ReconstructItinerary.cpp'>Reconstruct Itinerary</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td>338</td>
@@ -771,6 +781,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>1517</td>
+        <td><a href='pandas/easy/FindUsersWithValidEmails.py'>Find Users With Valid E-Mails</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td>1527</td>
         <td><a href='pandas/easy/PatientsWithCondition.py'>Patients With a Condition</a></td>
         <td>Easy</td>
@@ -783,6 +798,11 @@
     <tr>
         <td>1757</td>
         <td><a href='pandas/easy/RecyclableAndLowFatProducts.py'>Recyclable and Low Fat Products</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>1873</td>
+        <td><a href='pandas/easy/CalculateSpecialBonus.py'>Calculate Special Bonus</a></td>
         <td>Easy</td>
     </tr>
 </table><br />
