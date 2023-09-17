@@ -456,6 +456,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>847</td>
+        <td><a href='algorithms/hard/ShortestPathVisitingAllNodes.cpp'>Shortest Path Visiting All Nodes</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td>852</td>
         <td><a href='algorithms/medium/PeakIndexInMountainArray.cpp'>Peak Index in a Mountain Array</a></td>
         <td>Medium</td>
@@ -551,6 +556,11 @@
         <td>Easy</td>
     </tr>
     <tr>
+        <td>1584</td>
+        <td><a href='algorithms/medium/MinCostToConnectAllPoints.cpp'>Min Cost to Connect All Points</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td>1601</td>
         <td><a href='algorithms/hard/MaximumNumberOfAchievableTransferRequests.cpp'>Maximum Number of Achievable Transfer Requests</a></td>
         <td>Hard</td>
@@ -558,6 +568,11 @@
     <tr>
         <td>1626</td>
         <td><a href='algorithms/medium/BestTeamWithNoConflicts.cpp'>Best Team With No Conflicts</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>1631</td>
+        <td><a href='algorithms/medium/PathWithMinimumEffort.cpp'>Path With Minimum Effort</a></td>
         <td>Medium</td>
     </tr>
     <tr>
