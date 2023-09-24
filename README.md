@@ -376,6 +376,11 @@
         <td>Medium</td>
     </tr>
     <tr>
+        <td>392</td>
+        <td><a href='algorithms/easy/IsSubsequence.cpp'>Is Subsequence</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td>435</td>
         <td><a href='algorithms/medium/NonOverlappingIntervals.cpp'>Non-overlapping Intervals</a></td>
         <td>Medium</td>
