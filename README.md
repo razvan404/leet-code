@@ -1,828 +1,182 @@
-# <strong>LeetCode Solutions</strong>
-
-<img src='https://leetcode.card.workers.dev/rasvan?theme=auto&font=source_code_pro&extension=null&cache=0' width='100%' /><br />
+# **LeetCode Solutions** ![](https://leetcode.card.workers.dev/rasvan?theme=auto&font=source_code_pro&extension=null&cache=0)
 
 ## Algorithms
 
-<table width='100%'>
-    <tr>
-        <th>ID</th>
-        <th>Title and Solution</th>
-        <th>Difficulty</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td><a href='algorithms/easy/TwoSum.cpp'>Two Sum</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td><a href='algorithms/medium/AddTwoNumbers.cpp'>Add Two Numbers</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td><a href='algorithms/medium/LongestSubstringWithoutRepeatingCharacters.cpp'>Longest Substring Without Repeating Characters</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td><a href='algorithms/hard/MedianOfTwoSortedArrays.cpp'>Median of Two Sorted Arrays</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td><a href='algorithms/medium/LongestPalindromicSubstring.cpp'>Longest Palindromic Substring</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td><a href='algorithms/medium/ZigzagConversion.cpp'>Zigzag Conversion</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td><a href='algorithms/medium/ReverseInteger.cpp'>Reverse Integer</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td><a href='algorithms/medium/StringToInteger.cpp'>String to Integer (atoi)</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td><a href='algorithms/easy/PalindromeNumber.cpp'>Palindrome Number</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>11</td>
-        <td><a href='algorithms/medium/ContainerWithMostWater.cpp'>Container With Most Water</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>12</td>
-        <td><a href='algorithms/medium/IntegerToRoman.cpp'>Integer to Roman</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>13</td>
-        <td><a href='algorithms/easy/RomanToInteger.cpp'>Roman to Integer</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>14</td>
-        <td><a href='algorithms/easy/LongestCommonPrefix.cpp'>Longest Common Prefix</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>15</td>
-        <td><a href='algorithms/medium/3Sum.cpp'>3Sum</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>16</td>
-        <td><a href='algorithms/medium/3SumClosest.cpp'>3Sum Closest</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>17</td>
-        <td><a href='algorithms/medium/LetterCombinationsOfAPhoneNumber.cpp'>Letter Combinations of a Phone Number</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>18</td>
-        <td><a href='algorithms/medium/4Sum.cpp'>4Sum</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>19</td>
-        <td><a href='algorithms/medium/RemoveNthNodeFromEndOfList.cpp'>Remove Nth Node From End of List</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>20</td>
-        <td><a href='algorithms/easy/ValidParentheses.cpp'>Valid Parentheses</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>21</td>
-        <td><a href='algorithms/easy/MergeTwoSortedLists.cpp'>Merge Two Sorted Lists</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>22</td>
-        <td><a href='algorithms/medium/GenerateParantheses.cpp'>Generate Parentheses</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>23</td>
-        <td><a href='algorithms/hard/MergeKSortedLists.cpp'>Merge k Sorted Lists</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>24</td>
-        <td><a href='algorithms/medium/SwapNodesInPairs.cpp'>Swap Nodes in Pairs</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>25</td>
-        <td><a href='algorithms/hard/ReverseNodesInK-Group.cpp'>Reverse Nodes in k-Group</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>26</td>
-        <td><a href='algorithms/easy/RemoveDuplicatesFromSortedArray.cpp'>Remove Duplicates from Sorted Array</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>27</td>
-        <td><a href='algorithms/easy/RemoveElement.cpp'>Remove Element</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>28</td>
-        <td><a href='algorithms/easy/FindTheIndexOfTheFirstOccurrenceInString.cpp'>Find the Index of the First Occurrence in a String</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>29</td>
-        <td><a href='algorithms/medium/DivideTwoIntegers.cpp'>Divide Two Integers</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>31</td>
-        <td><a href='algorithms/medium/NextPermutation.cpp'>Next Permutation</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>35</td>
-        <td><a href='algorithms/easy/SearchInsertPosition.cpp'>Search Insert Position</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>49</td>
-        <td><a href='algorithms/medium/GroupAnagrams.cpp'>Group Anagrams</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>50</td>
-        <td><a href='algorithms/medium/Pow(x%2Cn).cpp'>Pow(x, n)</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>53</td>
-        <td><a href='algorithms/medium/MaximumSubarray.cpp'>Maximum Subarray</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>56</td>
-        <td><a href='algorithms/medium/MergeIntervals.cpp'>Merge Intervals</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>58</td>
-        <td><a href='algorithms/easy/LengthOfLastWord.cpp'>Length of Last Word</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>62</td>
-        <td><a href='algorithms/medium/UniquePaths.cpp'>Unique Paths</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>66</td>
-        <td><a href='algorithms/easy/PlusOne.cpp'>Plus One</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>67</td>
-        <td><a href='algorithms/easy/AddBinary.cpp'>Add Binary</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>69</td>
-        <td><a href='algorithms/easy/Sqrt(x).cpp'>Sqrt(x)</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>70</td>
-        <td><a href='algorithms/easy/ClimbingStairs.cpp'>Climbing Stairs</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>82</td>
-        <td><a href='algorithms/medium/RemoveDuplicatesFromSortedListII.cpp'>Remove Duplicates from Sorted List II</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>83</td>
-        <td><a href='algorithms/easy/RemoveDuplicatesFromSortedList.cpp'>Remove Duplicates from Sorted List</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>88</td>
-        <td><a href='algorithms/easy/MergeSortedArray.cpp'>Merge Sorted Array</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>92</td>
-        <td><a href='algorithms/medium/ReverseLinkedListII.cpp'>Reverse Linked List II</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>94</td>
-        <td><a href='algorithms/easy/BinaryTreeInorderTraversal.cpp'>Binary Tree Inorder Traversal</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>103</td>
-        <td><a href='algorithms/medium/BinaryTreeZigzagLevelOrderTraversal.cpp'>Binary Tree Zigzag Level Order Traversal</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>104</td>
-        <td><a href='algorithms/easy/MaximumDepthOfBinaryTree.cpp'>Maximum Depth of Binary Tree</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>108</td>
-        <td><a href='algorithms/easy/ConvertSortedArrayToBinarySearchTree.cpp'>Convert Sorted Array to Binary Search Tree</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>111</td>
-        <td><a href='algorithms/easy/MinimumDepthOfBinaryTree.cpp'>Minimum Depth of Binary Tree</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>118</td>
-        <td><a href='algorithms/easy/PascalTriangle.cpp'>Pascal's Triangle</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>121</td>
-        <td><a href='algorithms/easy/BestTimeToBuyAndSellStock.cpp'>Best Time to Buy and Sell Stock</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>135</td>
-        <td><a href='algorithms/hard/Candy.cpp'>Candy</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>136</td>
-        <td><a href='algorithms/easy/SingleNumber.cpp'>Single Number</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>137</td>
-        <td><a href='algorithms/medium/SingleNumberII.cpp'>Single Number II</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>138</td>
-        <td><a href='algorithms/medium/CopyListWithRandomPointer.cpp'>Copy List with Random Pointer</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>139</td>
-        <td><a href='algorithms/medium/WordBreak.cpp'>Word Break</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>141</td>
-        <td><a href='algorithms/easy/LinkedListCycle.cpp'>Linked List Cycle</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>146</td>
-        <td><a href='algorithms/medium/LRUCache.cpp'>LRU Cache</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>152</td>
-        <td><a href='algorithms/medium/MaximumProductSubarray.cpp'>Maximum Product Subarray</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>153</td>
-        <td><a href='algorithms/medium/FindMinimumInRotatedSortedArray.cpp'>Find Minimum in Rotated Sorted Array</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>160</td>
-        <td><a href='algorithms/easy/IntersectionOfTwoLinkedLists.cpp'>Intersection of Two Linked Lists</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>204</td>
-        <td><a href='algorithms/medium/CountPrimes.cpp'>Count Primes</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>206</td>
-        <td><a href='algorithms/easy/ReverseLinkedList.cpp'>Reverse Linked List</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>207</td>
-        <td><a href='algorithms/medium/CourseSchedule.cpp'>Course Schedule</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>209</td>
-        <td><a href='algorithms/medium/MinimumSizeSubarraySum.cpp'>Minimum Size Subarray Sum</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>217</td>
-        <td><a href='algorithms/easy/ContainsDuplicates.cpp'>Contains Duplicates</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>226</td>
-        <td><a href='algorithms/easy/InvertBinaryTree.cpp'>Invert Binary Tree</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>234</td>
-        <td><a href='algorithms/easy/PalindromeLinkedList.cpp'>Palindrome Linked List</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>238</td>
-        <td><a href='algorithms/medium/ProductOfArrayExceptSelf.cpp'>Product of Array Except Self</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>242</td>
-        <td><a href='algorithms/easy/ValidAnagram.cpp'>Valid Anagram</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>332</td>
-        <td><a href='algorithms/hard/ReconstructItinerary.cpp'>Reconstruct Itinerary</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>338</td>
-        <td><a href='algorithms/easy/CountingBits.cpp'>Counting Bits</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>377</td>
-        <td><a href='algorithms/medium/CombinationSumIV.cpp'>Combination Sum IV</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>392</td>
-        <td><a href='algorithms/easy/IsSubsequence.cpp'>Is Subsequence</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>435</td>
-        <td><a href='algorithms/medium/NonOverlappingIntervals.cpp'>Non-overlapping Intervals</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>438</td>
-        <td><a href='algorithms/medium/FindAllAnagramsInString.cpp'>Find All Anagrams in a String</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>445</td>
-        <td><a href='algorithms/medium/AddTwoNumbersII.cpp'>Add Two Numbers II</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>486</td>
-        <td><a href='algorithms/medium/PredictTheWinner.cpp'>Predict the Winner</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>502</td>
-        <td><a href='algorithms/hard/IPO.cpp'>IPO</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>530</td>
-        <td><a href='algorithms/easy/MinimumAbsoluteDifferenceInBST.cpp'>Minimum Absolute Difference in BST</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>540</td>
-        <td><a href='algorithms/medium/SingleElementInSortedArray.cpp'>Single Element in Sorted Array</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>567</td>
-        <td><a href='algorithms/medium/PermutationInString.cpp'>Permutation in String</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>673</td>
-        <td><a href='algorithms/medium/NumberOfLongestIncreasingSubsequence.cpp'>Number of Longest Increasing Subsequence</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>688</td>
-        <td><a href='algorithms/medium/KnightProbabilityInChessboard.cpp'>Knight Probability in Chessboard</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>712</td>
-        <td><a href='algorithms/medium/MinimumAsciiDeleteSumFromTwoStrings.cpp'>Minimum ASCII Delete Sum for Two Strings</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>725</td>
-        <td><a href='algorithms/medium/SplitLinkedListInParts.cpp'>Split Linked List in Parts</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>735</td>
-        <td><a href='algorithms/medium/AsteroidCollision.cpp'>Asteroid Collision</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>783</td>
-        <td><a href='algorithms/easy/MinimumDistanceBetweenBSTNodes.cpp'>Minimum Distance Between BST Nodes</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>802</td>
-        <td><a href='algorithms/medium/FindEventualSafeStates.cpp'>Find Eventual Safe States</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>808</td>
-        <td><a href='algorithms/medium/SoupServings.cpp'>Soup Servings</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>847</td>
-        <td><a href='algorithms/hard/ShortestPathVisitingAllNodes.cpp'>Shortest Path Visiting All Nodes</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>852</td>
-        <td><a href='algorithms/medium/PeakIndexInMountainArray.cpp'>Peak Index in a Mountain Array</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>859</td>
-        <td><a href='algorithms/easy/BuddyStrings.cpp'>Buddy Strings</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>863</td>
-        <td><a href='algorithms/medium/AllNodesDistanceKinBinaryTree.cpp'>All Nodes Distance K in Binary Tree</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>894</td>
-        <td><a href='algorithms/medium/AllPossibleFullBinaryTrees.cpp'>All Possible Full Binary Trees</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>904</td>
-        <td><a href='algorithms/medium/FruitIntoBaskets.cpp'>Fruit Into Baskets</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>953</td>
-        <td><a href='algorithms/easy/VerifyingAnAlienDictionary.cpp'>Verifying an Alien Dictionary</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>989</td>
-        <td><a href='algorithms/easy/AddToArrayFormOfInteger.cpp'>Add to Array-Form of Integer</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1011</td>
-        <td><a href='algorithms/medium/CapacityToShipPackagesWithingDDays.cpp'>Capacity To Ship Packages Withing D Days</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1071</td>
-        <td><a href='algorithms/easy/GreatestCommonDivisorOfStrings.cpp'>Greatest Common Divisor of Strings</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1125</td>
-        <td><a href='algorithms/hard/SmallestSufficientTeam.cpp'>Smallest Sufficient Team</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>1129</td>
-        <td><a href='algorithms/medium/ShortestPathWithAlternatingColors.cpp'>Shortest Path with Alternating Colors</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1137</td>
-        <td><a href='algorithms/easy/N-thTribonacciNumber.cpp'>N-th Tribonacci Number</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1162</td>
-        <td><a href='algorithms/medium/AsFarFromLandAsPossible.cpp'>As Far from Land as Possible</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1218</td>
-        <td><a href='algorithms/medium/LongestArithmeticSubsequenceOfGivenDifference.cpp'>Longest Arithmetic Subsequence of Given Difference</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1282</td>
-        <td><a href='algorithms/medium/GroupThePeopleGivenTheGroupSizeTheyBelongTo.cpp'>Group the People Given the Group Size They Belong To</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1359</td>
-        <td><a href='algorithms/hard/CountAllValidPickupAndDeliveryOptions.cpp'>Count All Valid Pickup and Delivery Options</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>1470</td>
-        <td><a href='algorithms/easy/ShuffleTheArray.cpp'>Shuffle the Array</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1493</td>
-        <td><a href="algorithms/medium/LongestSubarrayOf1'sAfterDeletingOneElement.cpp">Longest Subarray of 1's After Deleting One Element</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1523</td>
-        <td><a href='algorithms/easy/CountOddNumbersInAnIntervalRange.cpp'>Count Odd Numbers in an Interval Range</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1584</td>
-        <td><a href='algorithms/medium/MinCostToConnectAllPoints.cpp'>Min Cost to Connect All Points</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1601</td>
-        <td><a href='algorithms/hard/MaximumNumberOfAchievableTransferRequests.cpp'>Maximum Number of Achievable Transfer Requests</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>1626</td>
-        <td><a href='algorithms/medium/BestTeamWithNoConflicts.cpp'>Best Team With No Conflicts</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1631</td>
-        <td><a href='algorithms/medium/PathWithMinimumEffort.cpp'>Path With Minimum Effort</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1647</td>
-        <td><a href='algorithms/medium/MinimumDeletionsToMakeCharacterFrequenciesUnique.cpp'>Minimum Deletions to Make Character Frequencies Unique</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>1675</td>
-        <td><a href='algorithms/hard/MinimizeDeviationInArray.cpp'>Minimize Deviation in Array</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>1751</td>
-        <td><a href='algorithms/hard/MaximumNumberOfEventsThatCanBeAttendedII.cpp'>Maximum Number of Events That Can Be Attended II</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>1870</td>
-        <td><a href='algorithms/medium/MinimumSpeedToArriveOnTime.cpp'>Minimum Speed to Arrive on Time</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>2024</td>
-        <td><a href='algorithms/medium/MaximizeTheConfusionOfAnExam.cpp'>Maximize the Confusion of an Exam</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>2141</td>
-        <td><a href='algorithms/hard/MaximumRunningTimeOfNComputers.cpp'>Maximum Running Time of N Computers</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>2272</td>
-        <td><a href='algorithms/hard/SubstringWithLargestVariance.cpp'>Substring With Largest Variance</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>2305</td>
-        <td><a href='algorithms/medium/FairDistributionOfCookies.cpp'>Fair Distribution of Cookies</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>2477</td>
-        <td><a href='algorithms/medium/MinimumFuelCostToReportToTheCapital.cpp'>Minimum Fuel Cost to Report to the Capital</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>2551</td>
-        <td><a href='algorithms/hard/PutMarblesInBags.cpp'>Put Marbles in Bags</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>2707</td>
-        <td><a href='algorithms/medium/ExtraCharactersInString.cpp'>Extra Characters in a String</a></td>
-        <td>Medium</td>
-    </tr>
-</table><br />
+| ID   | Title and Solution                                                                                                               | Difficulty |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1    | [Two Sum](algorithms/easy/TwoSum.cpp)                                                                                            | Easy       |
+| 2    | [Add Two Numbers](algorithms/medium/AddTwoNumbers.cpp)                                                                           | Medium     |
+| 3    | [Longest Substring Without Repeating Characters](algorithms/medium/LongestSubstringWithoutRepeatingCharacters.cpp)               | Medium     |
+| 4    | [Median of Two Sorted Arrays](algorithms/hard/MedianOfTwoSortedArrays.cpp)                                                       | Hard       |
+| 5    | [Longest Palindromic Substring](algorithms/medium/LongestPalindromicSubstring.cpp)                                               | Medium     |
+| 6    | [Zigzag Conversion](algorithms/medium/ZigzagConversion.cpp)                                                                      | Medium     |
+| 7    | [Reverse Integer](algorithms/medium/ReverseInteger.cpp)                                                                          | Medium     |
+| 8    | [String to Integer (atoi)](algorithms/medium/StringToInteger.cpp)                                                                | Medium     |
+| 9    | [Palindrome Number](algorithms/easy/PalindromeNumber.cpp)                                                                        | Easy       |
+| 11   | [Container With Most Water](algorithms/medium/ContainerWithMostWater.cpp)                                                        | Medium     |
+| 12   | [Integer to Roman](algorithms/medium/IntegerToRoman.cpp)                                                                         | Medium     |
+| 13   | [Roman to Integer](algorithms/easy/RomanToInteger.cpp)                                                                           | Easy       |
+| 14   | [Longest Common Prefix](algorithms/easy/LongestCommonPrefix.cpp)                                                                 | Easy       |
+| 15   | [3Sum](algorithms/medium/3Sum.cpp)                                                                                               | Medium     |
+| 16   | [3Sum Closest](algorithms/medium/3SumClosest.cpp)                                                                                | Medium     |
+| 17   | [Letter Combinations of a Phone Number](algorithms/medium/LetterCombinationsOfAPhoneNumber.cpp)                                  | Medium     |
+| 18   | [4Sum](algorithms/medium/4Sum.cpp)                                                                                               | Medium     |
+| 19   | [Remove Nth Node From End of List](algorithms/medium/RemoveNthNodeFromEndOfList.cpp)                                             | Medium     |
+| 20   | [Valid Parentheses](algorithms/easy/ValidParentheses.cpp)                                                                        | Easy       |
+| 21   | [Merge Two Sorted Lists](algorithms/easy/MergeTwoSortedLists.cpp)                                                                | Easy       |
+| 22   | [Generate Parentheses](algorithms/medium/GenerateParantheses.cpp)                                                                | Medium     |
+| 23   | [Merge k Sorted Lists](algorithms/hard/MergeKSortedLists.cpp)                                                                    | Hard       |
+| 24   | [Swap Nodes in Pairs](algorithms/medium/SwapNodesInPairs.cpp)                                                                    | Medium     |
+| 25   | [Reverse Nodes in k-Group](algorithms/hard/ReverseNodesInK-Group.cpp)                                                            | Hard       |
+| 26   | [Remove Duplicates from Sorted Array](algorithms/easy/RemoveDuplicatesFromSortedArray.cpp)                                       | Easy       |
+| 27   | [Remove Element](algorithms/easy/RemoveElement.cpp)                                                                              | Easy       |
+| 28   | [Find the Index of the First Occurrence in a String](algorithms/easy/FindTheIndexOfTheFirstOccurrenceInString.cpp)               | Easy       |
+| 29   | [Divide Two Integers](algorithms/medium/DivideTwoIntegers.cpp)                                                                   | Medium     |
+| 31   | [Next Permutation](algorithms/medium/NextPermutation.cpp)                                                                        | Medium     |
+| 35   | [Search Insert Position](algorithms/easy/SearchInsertPosition.cpp)                                                               | Easy       |
+| 49   | [Group Anagrams](algorithms/medium/GroupAnagrams.cpp)                                                                            | Medium     |
+| 50   | [Pow(x, n)](<algorithms/medium/Pow(x%2Cn).cpp>)                                                                                  | Medium     |
+| 53   | [Maximum Subarray](algorithms/medium/MaximumSubarray.cpp)                                                                        | Medium     |
+| 56   | [Merge Intervals](algorithms/medium/MergeIntervals.cpp)                                                                          | Medium     |
+| 58   | [Length of Last Word](algorithms/easy/LengthOfLastWord.cpp)                                                                      | Easy       |
+| 62   | [Unique Paths](algorithms/medium/UniquePaths.cpp)                                                                                | Medium     |
+| 66   | [Plus One](algorithms/easy/PlusOne.cpp)                                                                                          | Easy       |
+| 67   | [Add Binary](algorithms/easy/AddBinary.cpp)                                                                                      | Easy       |
+| 69   | [Sqrt(x)](<algorithms/easy/Sqrt(x).cpp>)                                                                                         | Easy       |
+| 70   | [Climbing Stairs](algorithms/easy/ClimbingStairs.cpp)                                                                            | Easy       |
+| 82   | [Remove Duplicates from Sorted List II](algorithms/medium/RemoveDuplicatesFromSortedListII.cpp)                                  | Medium     |
+| 83   | [Remove Duplicates from Sorted List](algorithms/easy/RemoveDuplicatesFromSortedList.cpp)                                         | Easy       |
+| 88   | [Merge Sorted Array](algorithms/easy/MergeSortedArray.cpp)                                                                       | Easy       |
+| 92   | [Reverse Linked List II](algorithms/medium/ReverseLinkedListII.cpp)                                                              | Medium     |
+| 94   | [Binary Tree Inorder Traversal](algorithms/easy/BinaryTreeInorderTraversal.cpp)                                                  | Easy       |
+| 103  | [Binary Tree Zigzag Level Order Traversal](algorithms/medium/BinaryTreeZigzagLevelOrderTraversal.cpp)                            | Medium     |
+| 104  | [Maximum Depth of Binary Tree](algorithms/easy/MaximumDepthOfBinaryTree.cpp)                                                     | Easy       |
+| 108  | [Convert Sorted Array to Binary Search Tree](algorithms/easy/ConvertSortedArrayToBinarySearchTree.cpp)                           | Easy       |
+| 111  | [Minimum Depth of Binary Tree](algorithms/easy/MinimumDepthOfBinaryTree.cpp)                                                     | Easy       |
+| 118  | [Pascal's Triangle](algorithms/easy/PascalTriangle.cpp)                                                                          | Easy       |
+| 121  | [Best Time to Buy and Sell Stock](algorithms/easy/BestTimeToBuyAndSellStock.cpp)                                                 | Easy       |
+| 135  | [Candy](algorithms/hard/Candy.cpp)                                                                                               | Hard       |
+| 136  | [Single Number](algorithms/easy/SingleNumber.cpp)                                                                                | Easy       |
+| 137  | [Single Number II](algorithms/medium/SingleNumberII.cpp)                                                                         | Medium     |
+| 138  | [Copy List with Random Pointer](algorithms/medium/CopyListWithRandomPointer.cpp)                                                 | Medium     |
+| 139  | [Word Break](algorithms/medium/WordBreak.cpp)                                                                                    | Medium     |
+| 141  | [Linked List Cycle](algorithms/easy/LinkedListCycle.cpp)                                                                         | Easy       |
+| 146  | [LRU Cache](algorithms/medium/LRUCache.cpp)                                                                                      | Medium     |
+| 152  | [Maximum Product Subarray](algorithms/medium/MaximumProductSubarray.cpp)                                                         | Medium     |
+| 153  | [Find Minimum in Rotated Sorted Array](algorithms/medium/FindMinimumInRotatedSortedArray.cpp)                                    | Medium     |
+| 160  | [Intersection of Two Linked Lists](algorithms/easy/IntersectionOfTwoLinkedLists.cpp)                                             | Easy       |
+| 204  | [Count Primes](algorithms/medium/CountPrimes.cpp)                                                                                | Medium     |
+| 206  | [Reverse Linked List](algorithms/easy/ReverseLinkedList.cpp)                                                                     | Easy       |
+| 207  | [Course Schedule](algorithms/medium/CourseSchedule.cpp)                                                                          | Medium     |
+| 209  | [Minimum Size Subarray Sum](algorithms/medium/MinimumSizeSubarraySum.cpp)                                                        | Medium     |
+| 217  | [Contains Duplicates](algorithms/easy/ContainsDuplicates.cpp)                                                                    | Easy       |
+| 226  | [Invert Binary Tree](algorithms/easy/InvertBinaryTree.cpp)                                                                       | Easy       |
+| 234  | [Palindrome Linked List](algorithms/easy/PalindromeLinkedList.cpp)                                                               | Easy       |
+| 238  | [Product of Array Except Self](algorithms/medium/ProductOfArrayExceptSelf.cpp)                                                   | Medium     |
+| 242  | [Valid Anagram](algorithms/easy/ValidAnagram.cpp)                                                                                | Easy       |
+| 332  | [Reconstruct Itinerary](algorithms/hard/ReconstructItinerary.cpp)                                                                | Hard       |
+| 338  | [Counting Bits](algorithms/easy/CountingBits.cpp)                                                                                | Easy       |
+| 377  | [Combination Sum IV](algorithms/medium/CombinationSumIV.cpp)                                                                     | Medium     |
+| 392  | [Is Subsequence](algorithms/easy/IsSubsequence.cpp)                                                                              | Easy       |
+| 435  | [Non-overlapping Intervals](algorithms/medium/NonOverlappingIntervals.cpp)                                                       | Medium     |
+| 438  | [Find All Anagrams in a String](algorithms/medium/FindAllAnagramsInString.cpp)                                                   | Medium     |
+| 445  | [Add Two Numbers II](algorithms/medium/AddTwoNumbersII.cpp)                                                                      | Medium     |
+| 486  | [Predict the Winner](algorithms/medium/PredictTheWinner.cpp)                                                                     | Medium     |
+| 502  | [IPO](algorithms/hard/IPO.cpp)                                                                                                   | Hard       |
+| 530  | [Minimum Absolute Difference in BST](algorithms/easy/MinimumAbsoluteDifferenceInBST.cpp)                                         | Easy       |
+| 540  | [Single Element in Sorted Array](algorithms/medium/SingleElementInSortedArray.cpp)                                               | Medium     |
+| 567  | [Permutation in String](algorithms/medium/PermutationInString.cpp)                                                               | Medium     |
+| 673  | [Number of Longest Increasing Subsequence](algorithms/medium/NumberOfLongestIncreasingSubsequence.cpp)                           | Medium     |
+| 688  | [Knight Probability in Chessboard](algorithms/medium/KnightProbabilityInChessboard.cpp)                                          | Medium     |
+| 712  | [Minimum ASCII Delete Sum for Two Strings](algorithms/medium/MinimumAsciiDeleteSumFromTwoStrings.cpp)                            | Medium     |
+| 725  | [Split Linked List in Parts](algorithms/medium/SplitLinkedListInParts.cpp)                                                       | Medium     |
+| 735  | [Asteroid Collision](algorithms/medium/AsteroidCollision.cpp)                                                                    | Medium     |
+| 783  | [Minimum Distance Between BST Nodes](algorithms/easy/MinimumDistanceBetweenBSTNodes.cpp)                                         | Easy       |
+| 802  | [Find Eventual Safe States](algorithms/medium/FindEventualSafeStates.cpp)                                                        | Medium     |
+| 808  | [Soup Servings](algorithms/medium/SoupServings.cpp)                                                                              | Medium     |
+| 847  | [Shortest Path Visiting All Nodes](algorithms/hard/ShortestPathVisitingAllNodes.cpp)                                             | Hard       |
+| 852  | [Peak Index in a Mountain Array](algorithms/medium/PeakIndexInMountainArray.cpp)                                                 | Medium     |
+| 859  | [Buddy Strings](algorithms/easy/BuddyStrings.cpp)                                                                                | Easy       |
+| 863  | [All Nodes Distance K in Binary Tree](algorithms/medium/AllNodesDistanceKinBinaryTree.cpp)                                       | Medium     |
+| 894  | [All Possible Full Binary Trees](algorithms/medium/AllPossibleFullBinaryTrees.cpp)                                               | Medium     |
+| 904  | [Fruit Into Baskets](algorithms/medium/FruitIntoBaskets.cpp)                                                                     | Medium     |
+| 953  | [Verifying an Alien Dictionary](algorithms/easy/VerifyingAnAlienDictionary.cpp)                                                  | Easy       |
+| 989  | [Add to Array-Form of Integer](algorithms/easy/AddToArrayFormOfInteger.cpp)                                                      | Easy       |
+| 1011 | [Capacity To Ship Packages Withing D Days](algorithms/medium/CapacityToShipPackagesWithingDDays.cpp)                             | Medium     |
+| 1071 | [Greatest Common Divisor of Strings](algorithms/easy/GreatestCommonDivisorOfStrings.cpp)                                         | Easy       |
+| 1125 | [Smallest Sufficient Team](algorithms/hard/SmallestSufficientTeam.cpp)                                                           | Hard       |
+| 1129 | [Shortest Path with Alternating Colors](algorithms/medium/ShortestPathWithAlternatingColors.cpp)                                 | Medium     |
+| 1137 | [N-th Tribonacci Number](algorithms/easy/N-thTribonacciNumber.cpp)                                                               | Easy       |
+| 1162 | [As Far from Land as Possible](algorithms/medium/AsFarFromLandAsPossible.cpp)                                                    | Medium     |
+| 1218 | [Longest Arithmetic Subsequence of Given Difference](algorithms/medium/LongestArithmeticSubsequenceOfGivenDifference.cpp)        | Medium     |
+| 1282 | [Group the People Given the Group Size They Belong To](algorithms/medium/GroupThePeopleGivenTheGroupSizeTheyBelongTo.cpp)        | Medium     |
+| 1337 | [The K Weakest Rows in a Matrix](algorithms/easy/TheKWeakestRowsInMatrix.cpp)                                                    | Hard       |
+| 1359 | [Count All Valid Pickup and Delivery Options](algorithms/hard/CountAllValidPickupAndDeliveryOptions.cpp)                         | Hard       |
+| 1470 | [Shuffle the Array](algorithms/easy/ShuffleTheArray.cpp)                                                                         | Easy       |
+| 1493 | [Longest Subarray of 1's After Deleting One Element](algorithms/medium/LongestSubarrayOf1'sAfterDeletingOneElement.cpp)          | Medium     |
+| 1523 | [Count Odd Numbers in an Interval Range](algorithms/easy/CountOddNumbersInAnIntervalRange.cpp)                                   | Easy       |
+| 1584 | [Min Cost to Connect All Points](algorithms/medium/MinCostToConnectAllPoints.cpp)                                                | Medium     |
+| 1601 | [Maximum Number of Achievable Transfer Requests](algorithms/hard/MaximumNumberOfAchievableTransferRequests.cpp)                  | Hard       |
+| 1626 | [Best Team With No Conflicts](algorithms/medium/BestTeamWithNoConflicts.cpp)                                                     | Medium     |
+| 1631 | [Path With Minimum Effort](algorithms/medium/PathWithMinimumEffort.cpp)                                                          | Medium     |
+| 1647 | [Minimum Deletions to Make Character Frequencies Unique](algorithms/medium/MinimumDeletionsToMakeCharacterFrequenciesUnique.cpp) | Medium     |
+| 1675 | [Minimize Deviation in Array](algorithms/hard/MinimizeDeviationInArray.cpp)                                                      | Hard       |
+| 1751 | [Maximum Number of Events That Can Be Attended II](algorithms/hard/MaximumNumberOfEventsThatCanBeAttendedII.cpp)                 | Hard       |
+| 1870 | [Minimum Speed to Arrive on Time](algorithms/medium/MinimumSpeedToArriveOnTime.cpp)                                              | Medium     |
+| 2024 | [Maximize the Confusion of an Exam](algorithms/medium/MaximizeTheConfusionOfAnExam.cpp)                                          | Medium     |
+| 2141 | [Maximum Running Time of N Computers](algorithms/hard/MaximumRunningTimeOfNComputers.cpp)                                        | Hard       |
+| 2272 | [Substring With Largest Variance](algorithms/hard/SubstringWithLargestVariance.cpp)                                              | Hard       |
+| 2305 | [Fair Distribution of Cookies](algorithms/medium/FairDistributionOfCookies.cpp)                                                  | Medium     |
+| 2477 | [Minimum Fuel Cost to Report to the Capital](algorithms/medium/MinimumFuelCostToReportToTheCapital.cpp)                          | Medium     |
+| 2551 | [Put Marbles in Bags](algorithms/hard/PutMarblesInBags.cpp)                                                                      | Hard       |
+| 2707 | [Extra Characters in a String](algorithms/medium/ExtraCharactersInString.cpp)                                                    | Medium     |
 
 ## Database
 
-<table width='100%'>
-    <tr>
-        <th>ID</th>
-        <th>Title and Solution</th>
-        <th>Difficulty</th>
-    </tr>
-    <tr>
-        <td>175</td>
-        <td><a href='database/easy/CombineTwoTables.sql'>Combine Two Tables</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>176</td>
-        <td><a href='database/medium/SecondHighestSalary.sql'>Second Highest Salary</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>177</td>
-        <td><a href='database/medium/NthHighestSalary.sql'>Nth Highest Salary</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>178</td>
-        <td><a href='database/medium/RankScores.sql'>Rank Scores</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>180</td>
-        <td><a href='database/medium/ConsecutiveNumbers.sql'>Consecutive Numbers</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>181</td>
-        <td><a href='database/easy/EmployeesEarningMoreThanTheirManagers.sql'>Employees Earning More Than Their Managers</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>182</td>
-        <td><a href='database/easy/DuplicateEmails.sql'>Duplicate Emails</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>183</td>
-        <td><a href='database/easy/CustomersWhoNeverOrder.sql'>Customers Who Never Order</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>184</td>
-        <td><a href='database/medium/DepartmentHighestSalary.sql'>Department Highest Salary</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>185</td>
-        <td><a href='database/hard/DepartmentTopThreeSalaries.sql'>Department Top Three Salaries</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>196</td>
-        <td><a href='database/easy/DeleteDuplicateEmails.sql'>Delete Duplicate Emails</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>197</td>
-        <td><a href='database/easy/RisingTemperature.sql'>Rising Temperature</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>262</td>
-        <td><a href='database/hard/TripsAndUsers.sql'>Trips and Users</a></td>
-        <td>Hard</td>
-    </tr>
-    <tr>
-        <td>511</td>
-        <td><a href='database/easy/GamePlayAnalysisI.sql'>Game Play Analysis I</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>584</td>
-        <td><a href='database/easy/FindCustomerReferee.sql'>Find Customer Referee</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>585</td>
-        <td><a href='database/medium/InvestmentsIn2016.sql'>Investments in 2016</a></td>
-        <td>Medium</td>
-    </tr>
-</table><br />
+| ID  | Title and Solution                                                                                    | Difficulty |
+| --- | ----------------------------------------------------------------------------------------------------- | ---------- |
+| 175 | [Combine Two Tables](database/easy/CombineTwoTables.sql)                                              | Easy       |
+| 176 | [Second Highest Salary](database/medium/SecondHighestSalary.sql)                                      | Medium     |
+| 177 | [Nth Highest Salary](database/medium/NthHighestSalary.sql)                                            | Medium     |
+| 178 | [Rank Scores](database/medium/RankScores.sql)                                                         | Medium     |
+| 180 | [Consecutive Numbers](database/medium/ConsecutiveNumbers.sql)                                         | Medium     |
+| 181 | [Employees Earning More Than Their Managers](database/easy/EmployeesEarningMoreThanTheirManagers.sql) | Easy       |
+| 182 | [Duplicate Emails](database/easy/DuplicateEmails.sql)                                                 | Easy       |
+| 183 | [Customers Who Never Order](database/easy/CustomersWhoNeverOrder.sql)                                 | Easy       |
+| 184 | [Department Highest Salary](database/medium/DepartmentHighestSalary.sql)                              | Medium     |
+| 185 | [Department Top Three Salaries](database/hard/DepartmentTopThreeSalaries.sql)                         | Hard       |
+| 196 | [Delete Duplicate Emails](database/easy/DeleteDuplicateEmails.sql)                                    | Easy       |
+| 197 | [Rising Temperature](database/easy/RisingTemperature.sql)                                             | Easy       |
+| 262 | [Trips and Users](database/hard/TripsAndUsers.sql)                                                    | Hard       |
+| 511 | [Game Play Analysis I](database/easy/GamePlayAnalysisI.sql)                                           | Easy       |
+| 584 | [Find Customer Referee](database/easy/FindCustomerReferee.sql)                                        | Easy       |
+| 585 | [Investments in 2016](database/medium/InvestmentsIn2016.sql)                                          | Medium     |
 
 ## Shell
 
-<table width='100%'>
-    <tr>
-        <th>ID</th>
-        <th>Title and Solution</th>
-        <th>Difficulty</th>
-    </tr>
-    <tr>
-        <td>193</td>
-        <td><a href='shell/easy/ValidPhoneNumbers.sh'>Valid Phone Numbers</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>195</td>
-        <td><a href='shell/easy/TenthLine.sh'>Tenth Line</a></td>
-        <td>Easy</td>
-    </tr>
-</table><br />
+| ID  | Title and Solution                                     | Difficulty |
+| --- | ------------------------------------------------------ | ---------- |
+| 193 | [Valid Phone Numbers](shell/easy/ValidPhoneNumbers.sh) | Easy       |
+| 195 | [Tenth Line](shell/easy/TenthLine.sh)                  | Easy       |
 
 ## JavaScript
 
-<table width='100%'>
-    <tr>
-        <th>ID</th>
-        <th>Title and Solution</th>
-        <th>Difficulty</th>
-    </tr>
-    <tr>
-        <td>2618</td>
-        <td><a href='javascript/medium/CheckIfObjectInstanceOfClass.js'>Check if Object Instance of Class</a></td>
-        <td>Medium</td>
-    </tr>
-    <tr>
-        <td>2619</td>
-        <td><a href='javascript/easy/ArrayPrototypeLast.js'>Array Prototype Last</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>2620</td>
-        <td><a href='javascript/easy/Counter.js'>Counter</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>2623</td>
-        <td><a href='javascript/medium/Memoize.js'>Memoize</a></td>
-        <td>Medium</td>
-    </tr>
-</table><br />
+| ID   | Title and Solution                                                                     | Difficulty |
+| ---- | -------------------------------------------------------------------------------------- | ---------- |
+| 2618 | [Check if Object Instance of Class](javascript/medium/CheckIfObjectInstanceOfClass.js) | Medium     |
+| 2619 | [Array Prototype Last](javascript/easy/ArrayPrototypeLast.js)                          | Easy       |
+| 2620 | [Counter](javascript/easy/Counter.js)                                                  | Easy       |
+| 2623 | [Memoize](javascript/medium/Memoize.js)                                                | Medium     |
 
 ## Pandas
 
-<table width='100%'>
-    <tr>
-        <th>ID</th>
-        <th>Title and Solution</th>
-        <th>Difficulty</th>
-    </tr>
-    <tr>
-        <td>183</td>
-        <td><a href='pandas/easy/CustomersWhoNeverOrder.py'>Customers Who Never Order</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>595</td>
-        <td><a href='pandas/easy/BigCountries.py'>Big Countries</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1148</td>
-        <td><a href='pandas/easy/ArticleViewsI.py'>Article Views I</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1517</td>
-        <td><a href='pandas/easy/FindUsersWithValidEmails.py'>Find Users With Valid E-Mails</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1527</td>
-        <td><a href='pandas/easy/PatientsWithCondition.py'>Patients With a Condition</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1667</td>
-        <td><a href='pandas/easy/FixNamesInTable.py'>Fix Names in a Table</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1757</td>
-        <td><a href='pandas/easy/RecyclableAndLowFatProducts.py'>Recyclable and Low Fat Products</a></td>
-        <td>Easy</td>
-    </tr>
-    <tr>
-        <td>1873</td>
-        <td><a href='pandas/easy/CalculateSpecialBonus.py'>Calculate Special Bonus</a></td>
-        <td>Easy</td>
-    </tr>
-</table><br />
+| ID   | Title and Solution                                                            | Difficulty |
+| ---- | ----------------------------------------------------------------------------- | ---------- |
+| 183  | [Customers Who Never Order](pandas/easy/CustomersWhoNeverOrder.py)            | Easy       |
+| 595  | [Big Countries](pandas/easy/BigCountries.py)                                  | Easy       |
+| 1148 | [Article Views I](pandas/easy/ArticleViewsI.py)                               | Easy       |
+| 1517 | [Find Users With Valid E-Mails](pandas/easy/FindUsersWithValidEmails.py)      | Easy       |
+| 1527 | [Patients With a Condition](pandas/easy/PatientsWithCondition.py)             | Easy       |
+| 1667 | [Fix Names in a Table](pandas/easy/FixNamesInTable.py)                        | Easy       |
+| 1757 | [Recyclable and Low Fat Products](pandas/easy/RecyclableAndLowFatProducts.py) | Easy       |
+| 1873 | [Calculate Special Bonus](pandas/easy/CalculateSpecialBonus.py)               | Easy       |
